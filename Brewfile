@@ -1,11 +1,8 @@
 # Taps
 tap 'caskroom/cask'
-tap 'caskroom/eid'
 tap 'caskroom/fonts'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
 
 # Install ZSH
 brew 'zsh'
@@ -26,74 +23,49 @@ brew 'homebrew/dupes/grep'
 # Install Binaries
 brew 'awscli'
 brew 'git'
-brew 'hub'
-brew 'tree'
+brew 'htop'
 brew 'mackup'
 brew 'mas'
 brew 'node'
 brew 'trash'
 brew 'wget'
+brew 'docker-machine'
+brew 'jq'
+brew 'lsof'
+brew 'z'
+brew 'zsh-syntax-highlighting'
 
 # Development
-brew 'php72'
-brew 'php72-intl'
-brew 'php72-imagick'
-brew 'mariadb'
+#brew 'php72'
 
 # Apps
-cask 'aerial'
-cask 'alfred'
-cask 'caffeine'
+cask 'adobe-acrobat-reader'
+cask 'visual-studio-code'
+cask 'cyberduck'
+cask 'fugu'
+cask 'hyperdock'
+cask 'mongodb-compass'
+cask 'mongodb'
+cask 'onedrive'
+#cask 'PresButan'
+#cask 'RedQuits'
+#cask 'DisplayMenu'
+cask 'rightzoom'
+cask 'snagit'
+cask 'sourcetree'
+cask 'spectacle'
 cask 'docker'
-cask 'eid-be'
-cask 'eid-be-viewer'
 cask 'firefox'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpgtools'
-cask 'insomnia'
 cask 'iterm2'
 cask 'java'
 cask 'mysqlworkbench'
-cask 'now'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'shuttle'
-cask 'slack'
-cask 'sublime-text'
-cask 'torbrowser'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
-cask 'zoomus'
-
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+cask 'dropbox'
 
 # Fonts
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+#cask
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Gapplin', id: 768053424
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 557168941
-mas 'Unsplash Wallpapers', id: 1284863847
+#mas '1Password', id: 443987910
+
